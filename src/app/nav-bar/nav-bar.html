@@ -1,0 +1,15 @@
+<nav class="dashboard-nav">
+  <!-- Left: Logo -->
+  <div class="dashboard-logo">
+    <img src="favicon.ico" alt="Logo" />
+    <span class="dashboard-title">MyApp</span>
+  </div>
+  <!-- Center: User Name -->
+  <div class="dashboard-user">
+    Welcome, <span class="dashboard-username">{{ userName }}</span>
+  </div>
+  <!-- Right: Logout Button -->
+  <button class="dashboard-logout" (click)="logout()">
+    Logout
+  </button>
+</nav>
